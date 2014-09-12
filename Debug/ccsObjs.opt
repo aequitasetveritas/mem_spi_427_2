@@ -1,0 +1,1 @@
+"./spi.o" "./memFlash.o" "./main.o" -T"../msp430fe427a.ld" -Wl,--start-group -l"c" -l"gcc" -Wl,--end-group 
